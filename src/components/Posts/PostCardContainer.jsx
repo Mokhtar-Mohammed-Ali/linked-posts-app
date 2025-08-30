@@ -1,5 +1,5 @@
 
-import Comment from '../comment';
+import Comment from '../Comment';
 import CardBody from './postCard/CardBody';
 import CardFooter from './postCard/CardFooter';
 import CardHeader from './postCard/CardHeader';

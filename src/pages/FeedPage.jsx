@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import PostCard from '../components/Posts/PostCardContainer'
 import { postsApi } from '../services/postsServices'
 import LoadingSkeleto from '../components/LoadingSkeleto';
