@@ -34,7 +34,7 @@ export default function ChangePassword() {
   }
 
   return (
-    <div className="flex justify-center items-center bg-transparent py-16 translate-y-[20%]">
+    <div className="flex justify-center items-center bg-transparent py-16 translate-y-[10%]  ">
       <div className="w-full max-w-lg bg-white shadow-xl rounded-2xl p-8">
         <h2 className="text-3xl font-bold text-center mb-8 text-gray-700">
           Change Your Password

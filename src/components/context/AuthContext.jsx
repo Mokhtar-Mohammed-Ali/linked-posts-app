@@ -7,7 +7,7 @@ export const AuthContext = createContext();
 export default function AuthContextProvider({ children }) {
   const [islogedIn, setIsLogedIn] = useState(localStorage.getItem('token') != null);
   const [userData, setUserData] = useState( null);
-  console.log(userData);
+ 
 async function GetUserData() {
   let response = await GetUserLoggedData();
   if(response.message){
