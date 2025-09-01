@@ -34,7 +34,7 @@ navigate("/")
    }
   }
   return (
-    <div className='bg-white min-w-lg flex flex-col gap-2 shadow-2xl py-6 px-4 rounded-3xl'>
+    <div className='bg-white md:min-w-lg flex flex-col gap-2 shadow-2xl py-6 px-4 rounded-3xl'>
       <h1 className='text-center text-4xl text-blue-400 font-bold mb-3'>Login Now</h1>
       <form onSubmit={handleSubmit(LoginData)} className='flex flex-col gap-6 py-3'>
 
