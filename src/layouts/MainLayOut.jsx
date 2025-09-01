@@ -12,9 +12,9 @@ export default function MainLayOut() {
       <main className="flex-grow bg-black/15">
         <Outlet />
       </main>
-<div className="bg-gray-200">
+
 <Footer />
-</div>
+
       
     </div>
   </>
